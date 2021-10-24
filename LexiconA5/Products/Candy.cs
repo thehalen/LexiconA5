@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace LexiconA5.Products
+{
+    public class Candy : Product
+    {
+        public Candy(int price, string name, string description, string use) : base(price, name, description, use)
+        {
+
+        }
+    }
+}
